@@ -1,0 +1,29 @@
+﻿
+@model List<IceAge.Models.Movie>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@foreach(var e in Model)
+{
+    <ul>
+        <li>
+            @e.MovieId
+        </li>
+        <li>
+            @e.MovieName
+        </li>
+        <li>
+            @e.Production
+        </li>
+        <li>
+            @e.Price
+        </li>
+        <li>
+            @e.CreateDate
+        </li>
+    </ul>
+}

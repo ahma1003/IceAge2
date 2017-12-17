@@ -1,0 +1,3 @@
+ctrl + shif + B (gem ændringer)
+ctrl + R (run)
+ctrl + tab (navigate between the programs)
